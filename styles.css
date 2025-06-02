@@ -1,0 +1,32 @@
+header {
+    width: 100%;
+    height: auto; /* Cambia la altura para que se ajuste al contenido */
+    background-color: #4CAF50;
+    color: white;
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: space-between; /* Coloca los elementos en extremos opuestos */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 10px 20px; /* Añade espacio interno */
+    background-image: url(images/background_header2.png);
+    background-size: cover; /* Ajusta la imagen para cubrir el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+}
+
+#Logo_Princ {
+    width: 100px; /* Ajusta el tamaño del logo */
+    height: auto;
+    border-radius: 50%; /* Mantiene la proporción del logo */
+}
+
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    display: flex; /* Posiciona los elementos en línea */
+    padding: auto; /* Elimina el padding del ul */
+    margin-left: 170%; /* Elimina el margen del ul */
+    align-items: right; /* Alinea los elementos a la derecha */
+}
+
+nav ul li {
+    margin-left: 20px; /* Espaciado entre los elementos */
+}
